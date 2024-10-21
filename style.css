@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(213, 213, 213);
+    color: rgb(58, 0, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(39, 0, 71);
+    text-shadow: 1px 1px white;
+}
+
+h2, h3, h4 {
+    text-shadow: 1px 1px  rgb(179, 0, 255);
+}
+
+.fa {
+    font-size: 24px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.fa-facebook {
+    background: #3e7bff;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.highlight {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(75, 1, 106, 0.1);
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(251, 8, 8);
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: rgb(248, 216, 12);
+        color: rgb(0, 0, 0);
+    }
+
+    h3 {
+        color: rgb(255, 0, 0);
+    }
+}
+
+
+
